@@ -1,0 +1,902 @@
+body{
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+.withBlock{
+    max-width: 90%;
+}
+
+/* HEADER
+-------------------------------------------------- */
+#containerHeader{
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    z-index: 101;
+}
+#containerHeaderMin{
+background-color: #871548;
+}
+
+/* навигация */
+.headerNav > ul{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.headerNav > ul > li{
+    padding: 10px 20px;
+}
+.headerNav > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.headerNav > ul > li:hover{
+    background-color: black;
+    opacity: 35%;
+    transition: 0.7s;
+}
+/*навигация по категориям*/
+.listHover > ul{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.listHover > ul > li{
+    padding: 10px 20px;
+}
+.listHover > ul > li:hover{
+    background-color: #871548;
+    opacity: 90%;
+    color: white;
+    transition: 0.7s;
+}
+
+/* BODY LEFT
+-------------------------------------------------- */
+/* выравнивание картинки постов */
+.postImage{
+    background-color: #818182;
+    padding: inherit;
+}
+
+.picBoxPostBig-variant{
+    margin-left: inherit;
+}
+
+.postTextName{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.postBigMarginCategory{
+    margin-left: 12%;
+    margin-right: 5%;
+    padding-top: 4px;
+}
+
+.postBigMarginCategoryTwo{
+    margin-left: 12%;
+    margin-right: 5%;
+    padding-top: 4px;
+}
+
+.postBigMarginCalendar{
+    margin-right: 3%;
+    padding-top: 4px;
+}
+
+.postBigDivCategory{
+    display: flex;
+}
+.postBigDivCategory > a{
+    margin: 0;
+}
+.postBigDivCategory > p{
+    margin-top: 3%;
+}
+
+
+.postTextDescription{
+    text-align: center;
+    padding: 4%;
+}
+.postBtnRepost{
+    display: flex;
+    margin: auto;
+}
+.postMarginRepost{
+    margin: 5%;
+}
+/* блок категория над постом */
+.postCategorySmall{
+    display: flex;
+    position: relative;
+    margin-top: -181%;
+    padding-left: 23px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border: 1px solid #fff;
+    border-radius: 0 10px 0 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background-color: #871548;
+    color: white;
+}
+.postCategoryBig{
+    display: flex;
+    width: 178px;
+    padding-left: 23px;
+/*    border: 1px solid #000000;*/
+    border-radius: 0 5px 0 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+/*    background-color: #871548;*/
+/*    color: white;*/
+}
+
+.postBigSpan{
+    padding-top: 5px;
+}
+
+.postSmallDate{
+    display: flex;
+}
+.postBtnOpen{
+    margin: 0 0 12% 37%;
+}
+
+.postCategoryMiddle{
+    display: flex;
+    position: relative;
+    margin-top: -9%;
+    padding-left: 23px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border: 1px solid #fff;
+    border-radius: 0 10px 0 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background-color: #871548;
+    color: white;
+    margin-left: -466px;
+    margin-right: 466px;
+}
+
+.postMiddleMarginFoto{
+    margin-right: -35px;
+}
+.postMiddlePaddingText{
+    padding-left: 35px;
+}
+.postTitleH3{
+    text-align: center;
+}
+
+.borderIcon{
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    margin-left: 1%;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+    border-radius: 0 10px 0 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.borderIcon:hover{
+    background-color: #871548;
+}
+.borderIcon:active{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.borderIconMedium{
+    padding: 0;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+    border-radius: 0 15px 0 15px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.borderIconMedium:hover{
+    background-color: #871548;
+}
+.borderIconMedium:active{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.aboutPageTitle{
+    padding: 2%;
+}
+.aboutPageFoto{
+    margin-right: -2%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.tableWidth{
+    margin: 4% 0 8% 0%;
+    font-size: 125%;
+}
+.commentRow{
+    margin: 0% 0% 0px -4%;
+}
+
+.progress {
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.progress-bar {
+    background-color: #871548;
+}
+.thPadding {
+    padding: 2% 0;
+}
+
+.portrait{
+    width: 70%;
+}
+.divPortrait{
+    margin-left: auto;
+    margin-top: 15px;
+}
+.divPortraitNameText{
+    margin: 10px;
+}
+.commentRow{
+    margin: 15px;
+}
+.boxPost{
+    min-height: 500px;
+    box-shadow: 0 0 2px 3px #dfdfdf;
+    margin-left: inherit;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+.boxPost:hover{
+    box-shadow: 0 0 7px 3px #dfdfdf;
+}
+
+.boxPost{
+    min-height: 500px;
+    box-shadow: 0 0 2px 3px #dfdfdf;
+    margin-left: inherit;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+/* BODY RIGHT
+-------------------------------------------------- */
+.topCol{
+    margin-top: -80px;
+    position: relative;
+    left: 35px;
+}
+.topColPage{
+    margin-top: 3%;
+    position: relative;
+    left: 35px;
+}
+
+.infoWidget{
+    margin: 25px;
+}
+.lineHeight{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.aboutMargin{
+    margin: 39px 0 0 -20px;
+}
+.aboutFoto{
+    margin: 60px;
+    box-shadow: #dfe0e1;
+}
+.aboutBtn{
+    text-align: center;
+    margin: revert;
+}
+.aboutMyBtnMargin{
+    margin: 10% 0 0 28%;
+}
+.searchWidget{
+    text-align: center;
+    margin: 8% 0
+}
+.lastPostImg{
+    width: 100%;
+}
+.lastPostText{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+}
+.lastPostRow{
+    margin: auto;
+    width: 80%;
+}
+.lastPostBox{
+    height: 385px;
+}
+.mySliderRadio{
+    justify-content: center;
+    margin: 5%;
+}
+.skyTeg{
+    text-decoration: none;
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    border-radius: 1px;
+    color: black;
+    font-size: larger;
+    padding: 2%;
+    margin: 5%;
+}
+.skyTeg:hover{
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    text-decoration: none;
+    color: grey;
+}
+.skyTegWidth{
+    margin-top: 16px;
+    margin-left: 33px;
+}
+
+/* применяем анимацию для картинок
+-------------------------------------------------- */
+.scale {
+    overflow: hidden;
+}
+.scale img {
+    transition: 1s;
+}
+.scale img:hover {
+    transform: scale(1.03) rotate3d(1,0,1,2deg);
+
+}
+
+/* FOOTER
+-------------------------------------------------- */
+footer{
+    margin-top: 10px;
+    background-color: #871548;
+}
+#containerFooter{
+    height: 500px;
+    background-color: #871548;
+    color: white;
+}
+#containerFooter2{
+    background-color: #bdbdbd;
+}
+.footerPadding{
+    padding: 3%;
+}
+.footerPostText{
+    text-decoration: none;
+    color: white;
+}
+.footerPostTextMargin{
+    margin: auto;
+}
+.footerPostImg{
+    width: 100%;
+}
+.footerPostMar{
+    margin: 15px;
+}
+
+/* BOX POST
+-------------------------------------------------- */
+.boxStartBody{
+    min-height: 100px;
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: inherit;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+}
+/*блок большой*/
+.boxPostBig{
+    min-height: 800px;
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: inherit;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+.boxPostBig:hover{
+    box-shadow: 0 0 2px 3px #dfdfdf;
+}
+
+.boxPostBig-variant{
+    min-height: 400px;
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-top: -80px;
+    margin-bottom: 35px;
+    margin-left: 6%;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+
+.boxPostMedium{
+    min-height: 300px;
+    /* border: 0.1px solid #b02a37; */
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: inherit;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
+.boxPostMedium:hover{
+    box-shadow: 0 0 2px 3px #dfdfdf;
+}
+
+.boxPostSmall{
+    max-width: 47%;
+    min-height: 610px;
+    /* border: 0.1px solid #b02a37; */
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: inherit;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+.boxPostSmall-two{
+    margin-left: 6%;
+}
+.boxPostSmall:hover{
+    box-shadow: 0 0 2px 3px #dfdfdf;
+}
+
+.boxWidgetBig{
+    min-height: 590px;
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: auto;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+.boxWidgetBig:hover{
+    box-shadow: 0 0 2px 3px #dfdfdf;
+}
+
+.boxWidgetMedium{
+    min-height: 460px;
+    /* border: 0.1px solid #b02a37; */
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: auto;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+.boxWidgetMedium:hover{
+    box-shadow: 0 0 2px 3px #dfdfdf;
+}
+
+.boxWidgetGallery{
+    min-height: 400px;
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: auto;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+.boxWidgetGallery:hover{
+    box-shadow: 0 0 2px 3px #dfdfdf;
+}
+
+.boxWidgetSmall{
+    min-height: 150px;
+    /* border: 0.1px solid #b02a37; */
+    box-shadow: 3px 4px 2px 3px #dfdfdf;
+    margin-left: auto;
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+.boxWidgetSmall:hover{
+    box-shadow: 0 0 2px 3px #dfdfdf;
+}
+
+/* BTN style
+-------------------------------------------------- */
+.iconMargin{
+    margin: auto;
+}
+/* моя кнопка */
+.myBtn{
+    background-color: #871548;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.myBtn:hover{
+    background-color: #6d1039;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    color: white;
+    transition: 2ms;
+}
+.myBtn:active{
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+}
+.myBtnFooter{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.myBtnFooter:hover{
+    background-color: #c6c6c6;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    color: white;
+    transition: 2ms;
+}
+.myBtnFooter:active{
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+}
+.myBtnFooter > a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: initial;
+}
+.myBtnSizeBig{
+    width: 175px;
+    height: 50px;
+    padding: 10px;
+    font-size: large;
+}
+.myBtnSizeBigSlider{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    padding: 10px;
+    font-size: 25px;
+}
+.myBtnSizeSmall{
+    width: 110px;
+    height: 40px;
+    padding: 5px;
+    font-size: large;
+}
+.myBtnSizeMedium{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-size: large;
+}
+.form-group{
+    display: flex;
+}
+.btnSearch{
+    color: black;
+    border-color: #71113c;
+}
+.btnSearch:hover{
+    background-color: #871548;
+    color: white;
+}
+.page-link{
+    color: #871548;
+}
+.page-link:hover{
+    color: #871548;
+}
+/* TABLE SKILLS */
+
+table{
+    width: 90%;
+    margin: auto;
+}
+.tdLeft {
+    width: 20%;
+    font-size: larger;
+    color: #871548;
+}
+.aboutColSM{
+    display: flex;
+    margin-bottom: 6%;
+    margin-left: 7%;
+}
+
+.formPadding{
+    padding: 4%;
+}
+
+/* ADAPTIVE
+-------------------------------------------------- */
+@media (max-width: 1399px) {
+    .postCategoryBig {
+        margin-left: 6%;
+    }
+    .postBigMarginCategoryTwo {
+        margin-left: 2%;
+    }
+    .postCategoryMiddle {
+        margin-top: -15%;
+        margin-left: -410px;
+        margin-right: 380px;
+    }
+    .postMediumTextDescription{
+        text-align: center;
+        padding: 1% 4%;
+    }
+    .postBtnOpen {
+        margin: 0 0 6% 35%;
+    }
+    .aboutMyBtnMargin {
+        margin: 10% 0 0 24%;
+    }
+    .sliderWidgetTitle{
+        font-size: 160%;
+    }
+    .mySliderRadio {
+        margin: 5% -4%;
+    }
+    h5, .h5 {
+        font-size: 100%;
+    }
+    .borderIcon {
+        height: 50px;
+        width: 50px;
+    }
+    .borderIconMedium {
+        padding: 0;
+        height: 38px;
+        width: 38px;
+    }
+}
+@media (max-width: 1199px) {
+    .postBigMarginCategory {
+        margin: 0 0 0 4%;
+    }
+    .postBigMarginCategoryTwo{
+        margin-left: 2%;
+        margin-right: -5%;
+    }
+    h2, .h2, h3, .h3, h4, .h4{
+        font-size: 150%;
+    }
+    .borderIcon {
+        height: 45px;
+        width: 45px;
+    }
+    .postCategorySmall {
+        margin-top: -197%;
+        padding: 3px 12px 0 15px;
+    }
+    .categoryUpPost {
+        height: 23px;
+        width: 39px;
+    }
+    .postBtnOpen {
+        margin: 0 0 10% 30%;
+    }
+    .postCategoryMiddle {
+        margin-top: -18%;
+        margin-left: -340px;
+        margin-right: 280px;
+    }
+    .postMediumTextDescription {
+        font-size: 80%;
+    }
+    .myBtnSizeSmall{
+        width: 50%;
+        height: 50%;
+        font-size: 85%;
+    }
+    .postMediumTextDescription {
+        padding: 0% 4%;
+    }
+    .lineHeight {
+        margin-top: 10px;
+    }
+    .aboutMargin {
+        margin: 25px 0 0 -20px;
+    }
+    .aboutMyBtnMargin {
+        margin: 5% 20% 0 29%;
+    }
+    .myBtnSizeBig {
+        width: 75%;
+    }
+    .mySliderRadio {
+        margin: 10% 5%;
+    }
+    .mySliderRadio > a > img{
+        width: 100%;
+    }
+    .sliderWidgetTitle {
+        font-size: 140%;
+    }
+    h5, .h5 {
+        font-size: 84%;
+    }
+    .skyTeg {
+        margin: 3%;
+    }
+}
+@media (max-width: 991px) {
+    .rowDisplayBlock {
+        margin: 0;
+    }
+    .myBtnSizeBig {
+        width: 60%;
+        margin: 5% 12%;
+    }
+    .postMarginRepost {
+        margin: 2%;
+    }
+    .postCategorySmall {
+        margin-top: -188%;
+        padding: 0px 13px 0 15px;
+    }
+    .postBtnOpen {
+        margin: -10px 0px 10% 31%;
+    }
+    .categoryUpPost {
+        height: 20px;
+        width: 30px;
+    }
+    .postCategoryMiddle {
+        margin-top: -14%;
+        margin-left: -375px;
+        margin-right: 340px;
+    }
+    .postMediumTextDescription {
+        padding: 4% 4%;
+    }
+    .postTitleH3 {
+        margin-bottom: 4%;
+    }
+    .pagination{
+        display: none;
+    }
+    .boxWidgetBig{
+        margin-left: -47px;
+        margin-top: 90px;
+    }
+    .boxWidgetSmall {
+        margin-left: -47px;
+    }
+    .boxWidgetMedium {
+        margin-left: -47px;
+    }
+    .boxWidgetGallery {
+        margin-left: -47px;
+    }
+    .list-group{
+        margin-right: 15%;
+        font-size: larger;
+    }
+    .aboutFoto {
+        margin: 100px;
+        box-shadow: #dfe0e1;
+    }
+    .lineHeight{
+        margin-left: -222px;
+        margin-top: 30px;
+    }
+    .aboutMargin {
+        margin: 46px 0 0 -250px;
+    }
+    h2, .h2, h3, .h3, h4, .h4{
+        font-size: 150%;
+    }
+    h5, .h5 {
+        font-size: 150%;
+    }
+    .postMarginRepost {
+        margin: 10%;
+    }
+    .borderIconMedium-var {
+        padding: 0;
+        height: 70px;
+        width: 70px;
+    }
+    .lastPostText {
+        text-decoration: none;
+        color: black;
+        height: 100%;
+        display: inline-block;
+    }
+    .topPost{
+        display: none;
+    }
+    .skyTeg{
+        display: none;
+    }
+    #containerFooter{
+        display: table;
+    }
+    .footerContainer {
+        width: 50%;
+    }
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 576px) {
+    .boxStartBody {
+        margin: 2% 0;
+    }
+
+    .boxPostBig {
+        margin: 2% 0;
+    }
+    .rowDisplayBlock {
+        margin-left: -10px;
+    }
+    .likeNone {
+        display: none;
+    }
+    .myBtnSizeBig {
+        margin-top: 12%;
+    }
+    .picBoxPostBig-variant {
+        margin: 0;
+    }
+    .boxPostBig-variant {
+        margin: 0 0 4% 0;
+    }
+    .postCategorySmall {
+        margin: -89% 18% 0 3%;
+        padding: 0% 0% 1% 15%;
+    }
+    .postSmallDate{
+        width: 50%;
+    }
+    .postSmallDateRow{
+        width: 0;
+    }
+    .descriptionRow{
+        display: table-cell;
+    }
+    .boxPostSmall {
+        margin: 1%;
+    }
+    .boxPostMedium {
+        margin-left: 0;
+    }
+    .postCategoryMiddle {
+    margin-top: -117%;
+    margin-left: -64px;
+    margin-right: 375px;
+    }
+/*    h2, .h2, h3, .h3, h4, .h4{
+        font-size: 150%;
+    }
+    h5, .h5 {
+        font-size: 150%;
+    }*/
+    .postMediumTextDescription {
+        font-size: 100%;
+    }
+    .postSmallDateRow {
+        width: 42px;
+    }
+
+
+}
+
+
+
+

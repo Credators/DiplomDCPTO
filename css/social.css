@@ -1,0 +1,187 @@
+#styleBtnWidget{
+    background-size: 13%;
+    width: 13%;
+    height: 13%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.myBtnSoc-fb{
+    background: url("../img/social/fb.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-fb:hover{
+    background: url("../img/social/fb-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-fb:active{
+    background: url("../img/social/fb-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-like{
+    background: url("../img/social/hearts.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-like:hover{
+    background: url("../img/social/heart-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-like:active{
+    background: url("../img/social/heart-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-link{
+    background: url("../img/social/link.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-link:hover{
+    background: url("../img/social/link-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-link:active{
+    background: url("../img/social/link-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-date{
+    background: url("../img/social/date.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-date:hover{
+    background: url("../img/social/date-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-date:active{
+    background: url("../img/social/date-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-file{
+    background: url("../img/social/file.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-file:hover{
+    background: url("../img/social/file-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-file:active{
+    background: url("../img/social/file-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-git{
+    background: url("../img/social/git.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-git:hover{
+    background: url("../img/social/git-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-git:active{
+    background: url("../img/social/git-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-telegram{
+    background: url("../img/social/telegram.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-telegram:hover{
+    background: url("../img/social/teleg-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-telegram:active{
+    background: url("../img/social/teleg-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-twitter{
+    background: url("../img/social/twitter.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-twitter:hover{
+    background: url("../img/social/twit-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-twitter:active{
+    background: url("../img/social/twit-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-linkedin{
+    background: url("../img/social/linkedin.png") no-repeat;
+    border: 1px solid #b02a37;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.myBtnSoc-linkedin:hover{
+    background: url("../img/social/linkedin-hover.png") no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.myBtnSoc-linkedin:active{
+    background: url("../img/social/linkedin-active.png") no-repeat;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}

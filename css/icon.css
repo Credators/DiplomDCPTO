@@ -1,0 +1,291 @@
+
+
+.telegram{
+    height: 90%;
+    width: 90%;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/telegram.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/telegram.svg');
+    mask-repeat: no-repeat;
+}
+.telegram:hover{
+    background-color: white;
+}
+.telegram:active{
+    background-color: grey;
+}
+
+.facebook{
+    height: 90%;
+    width: 90%;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/facebook.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/facebook.svg');
+    mask-repeat: no-repeat;
+}
+.facebook:hover{
+    background-color: white;
+}
+.facebook:active{
+    background-color: grey;
+}
+
+.linkedin{
+    height: 90%;
+    width: 90%;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/linkedin.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/linkedin.svg');
+    mask-repeat: no-repeat;
+}
+.linkedin:hover{
+    background-color: white;
+}
+.linkedin:active{
+    background-color: grey;
+}
+
+.twitter{
+    height: 90%;
+    width: 90%;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/twitter.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/twitter.svg');
+    mask-repeat: no-repeat;
+}
+.twitter:hover{
+    background-color: white;
+}
+.twitter:active{
+    background-color: grey;
+}
+
+.git{
+    height: 90%;
+    width: 90%;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/git.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/git.svg');
+    mask-repeat: no-repeat;
+}
+.git:hover{
+    background-color: white;
+}
+.git:active{
+    background-color: grey;
+}
+
+.link{
+    height: 90%;
+    width: 90%;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/link.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/link.svg');
+    mask-repeat: no-repeat;
+}
+.link:hover{
+    background-color: blue;
+}
+.link:active{
+    background-color: grey;
+}
+/*  ------------------------------  */
+.repost{
+    height: 35px;
+    width: 45px;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/repost.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/repost.svg');
+    mask-repeat: no-repeat;
+}
+.repost:hover{
+    background-color: blue;
+}
+.repost:active{
+    background-color: grey;
+}
+
+.like{
+    height: 35px;
+    width: 45px;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/like.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/like.svg');
+    mask-repeat: no-repeat;
+}
+.like:hover{
+    background-color: red;
+}
+/*.like:active{
+    background-color: grey;
+}*/
+
+.message{
+    height: 35px;
+    width: 45px;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/message.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/message.svg');
+    mask-repeat: no-repeat;
+}
+.message:hover{
+    background-color: firebrick;
+}
+.message:active{
+    background-color: grey;
+}
+
+.calendar{
+    height: 35px;
+    width: 45px;
+    margin: 4% 0 0 4%;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/calendar.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/calendar.svg');
+    mask-repeat: no-repeat;
+}
+/*.calendar:hover{
+    background-color: white;
+}
+.calendar:active{
+    background-color: grey;
+}*/
+
+.category{
+    height: 35px;
+    width: 45px;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/category.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/category.svg');
+    mask-repeat: no-repeat;
+}
+/*
+.category:hover{
+    background-color: white;
+}
+.category:active{
+    background-color: grey;
+}*/
+
+.categoryUpPost{
+    height: 30px;
+    width: 50px;
+    background-color: #ffffff;
+    -webkit-mask-image: url('../img/icon/category.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/category.svg');
+    mask-repeat: no-repeat;
+}
+.calendarSmall{
+    height: 20px;
+    width: 30px;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/calendar.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/calendar.svg');
+    mask-repeat: no-repeat;
+}
+
+
+.likeSmall{
+    height: 20px;
+    width: 30px;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/like.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/like.svg');
+    mask-repeat: no-repeat;
+}
+.likeSmall:hover{
+    background-color: red;
+}
+/*.like:active{
+    background-color: grey;
+}*/
+
+.messageSmall{
+    height: 20px;
+    width: 30px;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/message.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/message.svg');
+    mask-repeat: no-repeat;
+}
+.messageSmall:hover{
+    background-color: firebrick;
+}
+
+.categoryBigPost{
+    display: inline-block;
+    height: 30px;
+    width: 48px;
+    background-color: #000000;
+    -webkit-mask-image: url('../img/icon/category.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/category.svg');
+    mask-repeat: no-repeat;
+}
+
+.calendarBigPost{
+    display: inline-block;
+    height: 30px;
+    width: 48px;
+    background-color: #020202;
+    -webkit-mask-image: url('../img/icon/calendar.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/calendar.svg');
+    mask-repeat: no-repeat;
+}
+
+.repostPage{
+    height: 90%;
+    width: 90%;
+    margin: 4% 0 0 4%;
+    display: flex;
+    background-color: #000;
+    -webkit-mask-image: url('../img/icon/repostPage.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url('../img/icon/repostPage.svg');
+    mask-repeat: no-repeat;
+}
+.repostPage:hover{
+    background-color: white;
+}
+.repostPage:active{
+    background-color: grey;
+}
+
