@@ -17,6 +17,9 @@ body{
 background-color: #871548;
 }
 
+.header{
+    display: none;
+}
 /* навигация */
 .headerNav > ul{
     padding: 10px;
