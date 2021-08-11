@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+	<link rel="shortcut icon" type="img/png" href="img/icon/iconForSite.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/myCSS.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <title>Блог 30+</title>
+</head>
+<body class="bg-gradient">
+	<header>
+		<div id="containerHeaderMin" class="container mw-100">
+			<div class="row">
+				<div class="col-12">
+					<div class="headerNav">
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="?blog=">Мой Блог</a></li>
+							<li><a href="?about=">Обо мне</a></li>
+							<li><a href="?contact=">Контакты</a></li>
+							<li><a href="?portfolio=">Портфолио</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+		<div class="container">
+			<div class="row">
+				<!-- колонка для всех постов -->
+				<div id="article" class="col-lg-8">
+
+					<!-- посты -->
+				</div>
+			<!-- колонка для всех виджетов -->
+				<div id="aside" class="col-lg-4">
+					<div class="row topColPage">
+						<!-- Блок Инфо -->
+						<div class="col-lg-12 boxWidgetSmall">
+							<div class="row">
+								<div class="col-6 col-lg-2">
+									<div class="row lineHeight">
+										<svg width="8" height="60" viewBox="0 0 8 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4 59.5L4 0.0142822" stroke="#871548" stroke-width="7"/>
+										</svg>
+									</div>
+								</div>
+								<div class="col-6 col-lg-10">
+									<div class="row aboutMargin">
+										<h2>Информация</h2>
+									</div>
+								</div>
+							</div>
+							<div class="row infoWidget">
+								<p>В данном блоке будет представлена информация о текущей странице, а именно для
+								   чего она и для кого предназначена.</p>
+								<p>Если это будет пост например, то тут будет краткая инфо о посте или его причина
+								   появления.</p>
+							</div>
+						</div>
+						<!-- Блок Поиска -->
+						<div class="col-lg-12 boxWidgetSmall">
+							<div class="row">
+								<div class="col-6 col-lg-2">
+									<div class="row lineHeight">
+										<svg width="8" height="60" viewBox="0 0 8 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4 59.5L4 0.0142822" stroke="#871548" stroke-width="7"/>
+										</svg>
+									</div>
+								</div>
+								<div class="col-6 col-lg-10">
+									<div class="row aboutMargin">
+										<h2>Поиск по сайту</h2>
+									</div>
+								</div>
+							</div>
+							<div class="row searchWidget">
+								<div class="input-group">
+									<input type="search" class="form-control rounded" placeholder="Поиск по сайту" aria-label="search"
+										   aria-describedby="search-addon" />
+									<button type="button" class="btn btnSearch">Поиск</button>
+								</div>
+							</div>
+						</div>
+						<!-- Блок Категории -->
+						<div class="col-lg-12 boxWidgetMedium">
+							<div class="row">
+								<div class="col-6 col-lg-2">
+									<div class="row lineHeight">
+										<svg width="8" height="60" viewBox="0 0 8 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4 59.5L4 0.0142822" stroke="#871548" stroke-width="7"/>
+										</svg>
+									</div>
+								</div>
+								<div class="col-6 col-lg-10">
+									<div class="row aboutMargin">
+										<h2>Категории</h2>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-10 offset-1 listHover">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">PHP</li>
+										<li class="list-group-item">SQL</li>
+										<li class="list-group-item">JavaScript</li>
+										<li class="list-group-item">HTML</li>
+										<li class="list-group-item">CSS</li>
+										<li class="list-group-item">Git</li>
+										<li class="list-group-item">Linux</li>
+										<li class="list-group-item">Docker</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Блок Посты по Обучению -->
+						<div class="col-lg-12 boxWidgetGallery">
+							<div class="row">
+								<div class="col-6 col-lg-2">
+									<div class="row lineHeight">
+										<svg width="8" height="60" viewBox="0 0 8 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4 59.5L4 0.0142822" stroke="#871548" stroke-width="7"/>
+										</svg>
+									</div>
+								</div>
+								<div class="col-6 col-lg-10">
+									<div class="row aboutMargin">
+										<h2 class="sliderWidgetTitle">Лучшее из Обучения</h2>
+									</div>
+								</div>
+							</div>
+							<div id="log" class="row mySliderRadio">
+								<a href="#"><img src="img/mySlide/mySlider_0_240x320.jpg" alt=""></a>
+							</div>
+							<div class="row mySliderRadio">
+								<input style="width: 25px; height: 25px" type="radio" name="radio"
+									   value="img/mySlide/mySlider_1_240x320.jpg">
+								<input style="width: 25px; height: 25px" type="radio" name="radio"
+									   value="img/mySlide/mySlider_2_240x320.jpg" checked>
+								<input style="width: 25px; height: 25px" type="radio" name="radio"
+									   value="img/mySlide/mySlider_3_240x320.jpg">
+							</div>
+						</div>
+						<!-- Блок Посты -->
+						<div class="col-lg-12 topPost boxWidgetMedium">
+							<div class="row">
+								<div class="col-6 col-lg-2">
+									<div class="row lineHeight">
+										<svg width="8" height="60" viewBox="0 0 8 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4 59.5L4 0.0142822" stroke="#871548" stroke-width="7"/>
+										</svg>
+									</div>
+								</div>
+								<div class="col-6 col-lg-10">
+									<div class="row aboutMargin">
+										<h2>Топ Постов</h2>
+									</div>
+								</div>
+							</div>
+							<div class="row lastPostBox">
+								<div class="row lastPostRow">
+									<div class="col-lg-4 ">
+										<a href=""><img class="lastPostImg"
+														src="img/lastPost/widget_post_4_310x250.jpg"
+														alt="">
+										</a>
+									</div>
+									<div class="col-lg-8">
+										<a class="lastPostText" href="#"><h5>Легко ли быть программистом ?</h5></a>
+									</div>
+								</div>
+								<div class="row lastPostRow">
+									<div class="col-lg-4">
+										<a href=""><img class="lastPostImg"
+														src="img/lastPost/widget_post_2_310x250.jpg"
+														alt="">
+										</a>
+									</div>
+									<div class="col-lg-8">
+										<a class="lastPostText" href="#"><h5>Начать кодить после 30 лет, последсвия</h5></a>
+									</div>
+								</div>
+								<div class="row lastPostRow">
+									<div class="col-lg-4">
+										<a href=""><img class="lastPostImg"
+														src="img/lastPost/widget_post_7_310x250.jpg"
+														alt="">
+										</a>
+									</div>
+									<div class="col-lg-8">
+										<a class="lastPostText" href="#"><h5>Сколько времени на учебу выделять ?</h5></a>
+									</div>
+								</div>
+								<div class="row lastPostRow">
+									<div class="col-lg-4">
+										<a href=""><img class="lastPostImg"
+														src="img/lastPost/widget_post_6_310x250.jpg"
+														alt="">
+										</a>
+									</div>
+									<div class="col-lg-8">
+										<a class="lastPostText" href="#"><h5>Ночной кодинг, стоит ли практиковать?</h5></a>
+									</div>
+								</div>
+								<div class="row lastPostRow">
+									<div class="col-lg-4">
+										<a href=""><img class="lastPostImg"
+														src="img/lastPost/widget_post_1_310x250.jpg"
+														alt="">
+										</a>
+									</div>
+									<div class="col-lg-8">
+										<a class="lastPostText" href="#"><h5>Образ мышления программиста</h5></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Блок Облако тегов -->
+						<div class="col-lg-12 skyTeg boxWidgetSmall">
+							<div class="row">
+								<div class="col-6 col-lg-2">
+									<div class="row lineHeight">
+										<svg width="8" height="60" viewBox="0 0 8 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4 59.5L4 0.0142822" stroke="#871548" stroke-width="7"/>
+										</svg>
+									</div>
+								</div>
+								<div class="col-6 col-lg-10">
+									<div class="row aboutMargin">
+										<h2>Облако Тегов</h2>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12 skyTegWidth">
+									<p>
+										<a href="" class="skyTeg">PHP</a>
+										<a href="" class="skyTeg">CSS</a>
+										<a href="" class="skyTeg">Linux</a>
+									</p>
+									<p>
+										<a href="" class="skyTeg">Git</a>
+										<a href="" class="skyTeg">HTML</a>
+										<a href="" class="skyTeg">JavaScript</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<footer>
+		<div id="containerFooter" class="container">
+			<!-- Верхняя строка -->
+			<div class="row footerPadding">
+				<div class="col-sm-5">
+					<h5>
+						ПОДПИСАТЬСЯ НА РАССЫЛКУ
+					</h5>
+					<h5 class="topPost">
+						АНОНСЫ И УРОКИ
+					</h5>
+				</div>
+				<div class="col-sm-7">
+					<div class="form-group">
+						<div class="col-sm-6">
+							<label for="exampleFormControlInput1">ПОДПИСАТЬСЯ</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1"
+								   placeholder="name@example.com">
+						</div>
+						<div style="
+								margin-top: 23px;
+								margin-left: 10px;
+								" class="col-sm-4">
+							<div class="myBtnFooter myBtnSizeMedium">
+								<a href="#">ПОДПИСАТЬСЯ</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<!-- Блок ПЕРВЫЙ -->
+				<div class="col-sm-4 footerContainer">
+					<div class="row">
+						<h3>О сайте</h3>
+					</div>
+					<div class="row">
+						<svg width="400" height="7" viewBox="0 0 400 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5 3L0 0.613249L0 6.38675L5 4V3ZM4.5 4H400V3L4.5 3V4Z" fill="#E5E5E5"/>
+						</svg>
+					</div>
+					<div style="margin: 5%" class="row">
+						<p>
+							В своем блоге я делюсь личным опытом и первыми шагами в программировании, с чем столкнулся, что
+							получалось, а что нет!
+						<p>Также буду делать свои уроки и делиться своими работа в портфолио!</p>
+						</p>
+					</div>
+				</div>
+				<!-- Блок ВТОРОЙ -->
+				<div class="col-sm-4 topPost">
+					<div class="row">
+						<h3>Популярные статьи</h3>
+					</div>
+					<div class="row">
+						<svg width="400" height="7" viewBox="0 0 400 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5 3L0 0.613249L0 6.38675L5 4V3ZM4.5 4H400V3L4.5 3V4Z" fill="#E5E5E5"/>
+						</svg>
+					</div>
+					<div class="row footerPostMar">
+						<div class="row ">
+							<div class="col-sm-4">
+								<a href="">
+									<img class="footerPostImg" src="img/lastPost/widget_post_4_310x250.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-sm-8 footerPostTextMargin">
+								<a class="footerPostText" href="#"><h5>Легко ли быть программистом ?</h5></a>
+							</div>
+						</div>
+					</div>
+					<div class="row footerPostMar">
+						<div class="row ">
+							<div class="col-sm-4">
+								<a href="">
+									<img class="footerPostImg" src="img/lastPost/widget_post_2_310x250.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-sm-8 footerPostTextMargin">
+								<a class="footerPostText" href="#"><h5>Стать программистом после 30+</h5></a>
+							</div>
+						</div>
+					</div>
+					<div class="row footerPostMar">
+						<div class="row ">
+							<div class="col-sm-4">
+								<a href="">
+									<img class="footerPostImg" src="img/lastPost/widget_post_1_310x250.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-sm-8 footerPostTextMargin">
+								<a class="footerPostText" href="#"><h5>Образ мышления программиста</h5></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Блок ТРЕТИЙ -->
+				<div class="col-sm-4 footerContainer">
+					<div class="row">
+						<h3>Я в соц. сетях</h3>
+					</div>
+					<div class="row">
+						<svg width="400" height="7" viewBox="0 0 400 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5 3L0 0.613249L0 6.38675L5 4V3ZM4.5 4H400V3L4.5 3V4Z" fill="#E5E5E5"/>
+						</svg>
+					</div>
+					<div style="margin-top: 7%" class="row">
+						<div class="col-sm-12 postBtnRepost">
+							<div class="col-sm-2 borderIconMedium iconMargin">
+								<a href="" class="telegram"></a>
+							</div>
+							<div class="col-sm-2 borderIconMedium iconMargin">
+								<a href="" class="facebook"></a>
+							</div>
+							<div class="col-sm-2 borderIconMedium iconMargin">
+								<a href="" class="twitter"></a>
+							</div>
+							<div class="col-sm-2 borderIconMedium iconMargin">
+								<a href="" class="linkedin"></a>
+							</div>
+						</div>
+					</div>
+					<di class="row">
+						<img src="img/social/socseti.png" alt="">
+					</di>
+				</div>
+			</div>
+		</div>
+		<div id="containerFooter2" class="container mw-100">
+			<div class="row">
+				<div class="col-12">
+					<p style="text-align: center">Artur Yaroslavtsev © 2021</p>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/myJS.js"></script>
+</body>
+</html>
