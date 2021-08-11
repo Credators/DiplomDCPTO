@@ -107,6 +107,20 @@
 .link:active{
     background-color: grey;
 }
+
+@media (max-width: 767px) {
+    .link{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .link{
+        display: none;
+    }
+}
+
+
 /*  ------------------------------  */
 .repost{
     height: 35px;

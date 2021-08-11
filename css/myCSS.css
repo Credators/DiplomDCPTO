@@ -663,6 +663,9 @@ table{
         height: 38px;
         width: 38px;
     }
+    .header{
+        display: none;
+    }
 }
 @media (max-width: 1199px) {
     .postBigMarginCategory {
@@ -830,17 +833,103 @@ table{
     .footerContainer {
         width: 50%;
     }
+    .svgLine {
+        margin: 12% 0 0 -24%;
+    }
+    .aboutPageFoto{
+        margin: 3% 1% 4% 27%;
+    }
+    .aboutPageDescription{
+        width: 100%;
+        margin-bottom: 2%;
+        padding: 1% 7%;
+    }
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    header{
+        display: none;
+    }
+    .boxStartBody {
+        margin-left: 0;
+    }
+    .postMarginRepost {
+        margin: 0%;
+    }
+    .myBtnSizeBig {
+        width: 70%;
+        margin: 5% 12%;
+    }
+    .boxPostBig {
+        margin-left: 0;
+    }
+    .boxPostBig-variant {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .picBoxPostBig-variant {
+        margin-left: 0;
+    }
+    .boxPostSmall {
+        margin-left: 0;
+    }
+    .boxPostSmall-two {
+        margin-left: 6%;
+    }
+    .boxPostMedium {
+        display: none;
+    }
+    .topCol{
+        margin-top: 0;
+        left: 0;
+    }
+    .topColPage {
+        margin-top: 0;
+        left: 0;
+    }
+    .boxWidgetBig {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .boxWidgetSmall {
+        margin-left: 0;
+    }
+    .boxWidgetMedium {
+        margin-left: 0;
+    }
+    .boxWidgetGallery {
+        margin-left: 0;
+    }
+    .header{
+        display: block;
+        background-color: #871548;
+    }
+    .headerNav > ul{
+        display: inherit;
+        text-align: center;
+    }
+    .headerNav > ul > li{
+        padding: 10px 20px;
+    }
+    .headerNav > ul > li > a{
+        font-size: 22px;
+        color: white;
+    }
+    .headerNav > ul > li:hover{
+        background-color: black;
+        opacity: 35%;
+        transition: 0.7s;
+    }
+    .svgLine {
+        width: 370px;
+    }
 
 }
 @media (max-width: 576px) {
     .boxStartBody {
-        margin: 2% 0;
+        margin-left: 0;
     }
-
     .boxPostBig {
-        margin: 2% 0;
+        margin-left: 0;
     }
     .rowDisplayBlock {
         margin-left: -10px;
@@ -849,6 +938,7 @@ table{
         display: none;
     }
     .myBtnSizeBig {
+        width: 60%;
         margin-top: 12%;
     }
     .picBoxPostBig-variant {
@@ -870,9 +960,6 @@ table{
     .descriptionRow{
         display: table-cell;
     }
-    .boxPostSmall {
-        margin: 1%;
-    }
     .boxPostMedium {
         margin-left: 0;
     }
@@ -881,20 +968,12 @@ table{
     margin-left: -64px;
     margin-right: 375px;
     }
-/*    h2, .h2, h3, .h3, h4, .h4{
-        font-size: 150%;
-    }
-    h5, .h5 {
-        font-size: 150%;
-    }*/
     .postMediumTextDescription {
         font-size: 100%;
     }
     .postSmallDateRow {
         width: 42px;
     }
-
-
 }
 
 
